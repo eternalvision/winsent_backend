@@ -1,0 +1,38 @@
+{
+    "name": "amn-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon ./app/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eternalvision/AMN-Backend.git"
+    },
+    "keywords": [],
+    "author": "Alexandr Priadchenko",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/eternalvision/AMN-Backend/issues"
+    },
+    "homepage": "https://github.com/eternalvision/AMN-Backend#readme",
+    "dependencies": {
+        "@sendgrid/mail": "^7.7.0",
+        "bcryptjs": "^2.4.3",
+        "cors": "2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.18.2",
+        "gravatar": "^1.8.2",
+        "http-errors": "^1.8.1",
+        "joi": "^17.9.2",
+        "joi-password": "^4.1.1",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.1.0",
+        "morgan": "^1.10.0",
+        "nanoid": "^4.0.2",
+        "node.date-time": "^1.2.2",
+        "short-uuid": "^4.2.2",
+        "socket.io": "^4.7.2"
+    }
+}

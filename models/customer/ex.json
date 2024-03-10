@@ -1,0 +1,29 @@
+{
+    "personal": {
+        "username": "user123",
+        "name": "Ivan",
+        "surname": "Ivanov",
+        "email": "ivan.ivanov@example.com",
+        "phoneNumber": "1234567890",
+        "password": "securePassword123"
+    },
+    "address": {
+        "district": "Prague 1",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "street": "Wenceslas Square",
+        "houseNumber": 1,
+        "entrance": 3,
+        "floor": 2,
+        "apartmentNumber": 24,
+        "squareMeters": 85,
+        "rooms": 3,
+        "bathrooms": 1,
+        "occupants": 2,
+        "animals": true
+    },
+    "customization": {
+        "theme": "dark",
+        "language": "en"
+    }
+}
